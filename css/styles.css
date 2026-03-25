@@ -10,9 +10,17 @@
     max-height: 500px;
 }
 
+@media (max-width: 480px) {
+  .page img {
+    max-width: 84%;
+    max-height: none;
+  }
+}
+
 .page .row {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    text-align: center;
 }
 
 .page:nth-child(1) {
@@ -231,6 +239,8 @@
     color: #fff;
     font: sans-serif;
     text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .size-huge {
