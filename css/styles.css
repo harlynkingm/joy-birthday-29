@@ -1,0 +1,280 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.page .row {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.page:nth-child(1) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(2) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(3) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(4) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(5) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(6) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(7) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(8) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(9) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(10) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(11) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(12) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(13) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(14) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(15) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(16) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(17) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(18) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(19) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(20) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(21) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(22) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(23) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(24) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(25) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(26) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(27) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(28) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(29) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(30) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(31) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(32) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(33) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(34) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(35) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(36) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(37) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(38) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(39) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(40) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(41) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(42) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(43) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(44) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(45) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(46) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(47) {
+    background-color: #F2BBC9;
+}
+
+.page:nth-child(48) {
+    background-color: #F294B6;
+}
+
+.page:nth-child(49) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(50) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(51) {
+    background-color: #F2A2C0;
+}
+
+.page:nth-child(52) {
+    background-color: #F2B3CA;
+}
+
+.page:nth-child(53) {
+    background-color: #F2BBC9;
+}
+
+.birthday-text {
+    color: #fff;
+    font: sans-serif;
+    text-align: center;
+}
+
+.size-huge {
+    font-size: 100pt;
+}
+
+.size-big {
+    font-size: 42pt;
+}
+
+.size-medium {
+    font-size: 20pt;
+}
+
+.rotate {
+    display: inline-block;
+    animation: rotate-once 6s ease-in-out 1;
+}
+
+@keyframes rotate-once {
+  0%   { transform: rotate(0deg); }
+  20%   { transform: rotate(0deg); }
+  40%  { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); } /* hold for the remaining 80% */
+}
+
+.scroll-hint {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+  color: #fff;
+  z-index: 1;
+}
+
+.chevron {
+  margin-top: -6px;
+  font-size: 20px;
+  transform: translateY(-6px);
+}
